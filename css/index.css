@@ -73,6 +73,8 @@
     height: 800px;
     /* background: #e7e7e7; */
     background: url('../images/bg-screen-1.png') no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
     position: relative;
     overflow: hidden;
 }
@@ -154,35 +156,164 @@
 }
 .section-two .point1{
     top: 150px;
-    left: -164px;
+    left: -114px;
 }
 .section-two .point2{
     top: 30px;
-    right: 130px;
+    right: 30px;
 }
 .section-two .point3{
     top: 330px;
-    right: 100px;
+    right: -70px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*第三屏*/
 .section-three{
-    background: #ccc;
+    overflow: hidden;
+    background: #a71316;
+    color: #fff;
+}
+.section-three-wrap{
+    width: 1200px;
+    margin: 0 auto;
     height: 800px;
     position: relative;
 }
+.section-three-heading{
+    font-size: 46px;
+    line-height: 46px;
+    text-align: left;
+    padding-top: 94px;
+}
+.section-three-subheading{
+    text-align: left;
+    padding-top: 25px;
+    line-height: 28px;
+}
+.section-three-phone{
+    width: 729px;
+    height: 873px;
+    background: url('../images/bg-screen-3.png') no-repeat;
+    position: absolute;
+    top: 195px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+.section-three-features{
+    width: 328px;
+    height: 288px;
+    position: absolute;
+    bottom: 140px;
+}
+.section-three-features-item{
+    width: 138px;
+    height: 118px;
+    float: left;
+    border: 1px solid #d97173;
+    border-radius: 3px;
+    text-align: center;
+    margin: 0 24px 24px 0;
+}
+.section-three-features-item span{
+    display: block;
+    font-size: 36px;
+    height: 36px;
+    line-height: 36px;
+    padding: 32px 0 9px 0;
+}
+/*第四屏*/
+.section-four{
+    height: 700px;
+    overflow: hidden;
+}
+.section-four-wrap{
+    width: 1200px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.section-four-heading{
+    font-size: 42px;
+    color: #f01414;
+    padding-top: 80px;
+}
+.section-four-subheading{
+    margin: 50px 0;
+}
+.section-four-type-item{
+    display: inline-block;
+    margin: 0 26px;
+}
+.section-four-type-item .type-name{
+    color: #2c3238;
+    margin: 15px 0 8px 0;
+}
+.section-four-type-item .type-storage{
+    color: #93999f;
+}
+/*第五屏*/
+.section-five{
+    background: #d9dde1;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.section-five-heading{
+    font-size: 42px;
+    color: #f01414;
+    padding-top: 180px;
+}
+.section-five-subheading{
+    margin: 42px 0 202px 0;
+}
+.section-five-bg{
+    width: 100%;
+    height: 370px;
+    background: url('../images/bg-screen-5.png') no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+/*第六屏*/
+.section-six{
+    width: 100%;
+    height: 80px;
+    padding: 120px 0;
+    background: #2b333b url('../images/bg-screen-buy.png') no-repeat center;
+/*     -webkit-background-size: cover;
+    background-size: cover; */
+}
+.section-six .buy-btn{
+    display: block;
+    width: 240px;
+    height: 80px;
+    line-height: 80px;
+    background: #f01414;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 24px;
+    margin: 0 auto;
+    transition: all 0.5s;
+}
+.section-six .buy-btn:hover{
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    transform: translate(0,-5px);
+}
+.footer{
+    height: 80px;
+    line-height: 80px;
+    background: #07111b;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+
+
 /* animation: rotate1 8s linear infinite;
 
 @keyframes rotate1 {
